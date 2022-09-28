@@ -1,6 +1,5 @@
 import Discover from './Discover';
 import TopCharts from './TopCharts';
-import AroundYou from './AroundYou';
 import SongDetails from './SongDetails';
 import TopArtists from './TopArtists';
 import ArtistDetails from './ArtistDetails';
@@ -13,5 +12,4 @@ export {
   ArtistDetails,
   SongDetails,
   TopCharts,
-  AroundYou,
 };
