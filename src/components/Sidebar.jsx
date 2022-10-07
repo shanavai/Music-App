@@ -13,7 +13,7 @@ const NavLinks = ({ handleClick }) => (
       <NavLink
         key={item.name}
         to={item.to}
-        className="flex flex-row justify-start items-center my-8 text-sm font-medium text-gray-400 hover:text-cyan-400"
+        className="flex flex-row justify-start items-center my-8 text-sm font-medium text-cyan-400  "
         onClick={() => handleClick && handleClick()}
       >
         <item.icon className="w-6 h-6 mr-2" />
@@ -27,7 +27,7 @@ const Sidebar = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   return (
     <>
-      <div className="md:flex hidden flex-col w-[240px] py-10 px-4 bg-[black]"> 
+      <div className="md:flex hidden flex-col w-[240px] py-10 px-4 bg-[black]">
         <NavLinks />
       </div>
 

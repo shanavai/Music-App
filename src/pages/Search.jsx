@@ -1,6 +1,6 @@
 import React from 'react';
 import { useSelector } from 'react-redux';
-import { useParams } from 'react-router-dom'; 
+import { useParams } from 'react-router-dom';
 import { Loader, SongCard } from '../components';
 import { useGetSongsBySearchQuery } from '../redux/services/shazamCore';
 
